@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 /**
  * @author : Lalji Gajera
  * @version : 1.0
- * This Class used to formate any string of alphanumeric to desired phone number formate specified by parameter
+ * This Class used to format any string of alphanumeric to desired phone number format specified by parameter
  * Developed By : Lalji Gajera
  */
 public class PhoneNumberUtil {
@@ -15,7 +15,7 @@ public class PhoneNumberUtil {
 
     /**
      * @param number is String containing any characters whatever to be formated  ex: 1234567890
-     * @param format : formate must specify with capital X , Ex:  XXX-XXX-XXXX
+     * @param format : format must specify with capital X , Ex:  XXX-XXX-XXXX
      * @param maxLength : allowed max length of number ex: 10
      * @return return well formated phone number ex: 123-456-7890
      */
